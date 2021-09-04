@@ -6,3 +6,7 @@
 #+ATTR_HTML: :alt Qtile Scrot :title Qtile Scrot :align left
 [[https://i.imgur.com/OM1YyBn.png]]
 
+#+BEGIN_SRC python
+throw this file in your home directory NOT YOUR CONFIG DIRECTORY
+place the image file in ~/.config/conky/images/arcolinux-white-100x100.png
+#+END_SRC
