@@ -1,6 +1,6 @@
 --[[
 #=====================================================================================
-#                               XMonad Conky
+#                               sav3d Conky
 #======================================================================================
 ]]
 
@@ -97,18 +97,18 @@ ${color2}${goto 12}${membar 8,254}${color}
 ${goto 12}${voffset 5}${color1}${top_mem name 1}$alignr$color${top_mem mem_res 1}
 ${goto 12}${color1}${top_mem name 2}$alignr$color${top_mem mem_res 2}
 ${goto 12}${color1}${top_mem name 3}$alignr$color${top_mem mem_res 3}
-${voffset 15}${color1}${alignc}AW WM KEYBINDINGS${color}
+${voffset 15}${color1}${alignc}KEYBINDINGS${color}
 ${color1}${hr}${color}
-${color1}[S+ent]${alignr}${color2}opens terminal${color}
-${color1}[S+shift]+r${alignr}${color2}rload aw-wm${color}
-${color1}[S]+q${alignr}${color2}close window${color}
-${color1}[S]+e${alignr}${color2}open atom${color}
+${color1}[S+shift]+r${alignr}${color2}reload${color}
+${color1}[S+shift]+1-9${alignr}${color2}send window${color}
+${color1}[S]+1-9${alignr}${color2}switch workspace${color}
+${color1}[S+shift]+f${alignr}${color2}toggle float${color}
+${color1}[S+shift]+h/l${alignr}${color2}adjust${color}
+${color1}[S]+f${alignr}${color2}toggle FS${color}
 ${color1}[S]+Rmouse${alignr}${color2}resize window${color}
 ${color1}[S]+Lmouse${alignr}${color2}float window${color}
-${color1}[S+1-9]${alignr}${color2}switch workspace${color}
-${color1}[S+shift+1-9]${alignr}${color2}send window${color}
-${color1}[alt+shift]+h/l${alignr}${color2}adjust${color}
-${color1}[S]+space${alignr}${color2}adjust layout${color}
+${color1}[S]+space${alignr}${color2}adjust focus${color}
+${color1}[S]+tab${alignr}${color2}shuffle layouts${color}
 ${voffset 15}${color1}${alignc}TERMINAL COMMANDS${color}
 ${color1}${hr}${color}
 ${color1}[pdl]${alignr}${color2}pacman install${color}
@@ -117,8 +117,7 @@ ${color1}[yoo]${alignr}${color2}yaourt search${color}
 ${color1}[aura]${alignr}${color2}aura pacmanager${color}
 ${color1}[delete]${alignr}${color2}pacman delete${color}
 ${color1}[remove]${alignr}${color2}yay delete${color}
-${color1}[pup]${alignr}${color2}update std${color}
-${color1}[yup]${alignr}${color2}update all${color}
+${color1}[update]${alignr}${color2}update all${color}
 ${color1}[clone]${alignr}${color2}git clone${color}
 ${color1}${hr}${color}
 ${color1}
