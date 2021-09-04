@@ -1,0 +1,8 @@
+#+TITLE: Conky Config
+#+PROPERTY: header-args :tangle config.py
+
+* About This Config
+#+CAPTION: Conky Scrot
+#+ATTR_HTML: :alt Qtile Scrot :title Qtile Scrot :align left
+[[https://i.imgur.com/OM1YyBn.png]]
+
