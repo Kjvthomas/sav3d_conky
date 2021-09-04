@@ -4,7 +4,7 @@
 [[https://i.imgur.com/OM1YyBn.png]]
 
 
-#+TITLE: About This Config
+* About This Config
 #+CAPTION: Conky Scrot
 #+ATTR_HTML: :alt Conky Scrot :title Conky Scrot :align left
 #+BEGIN_SRC python
