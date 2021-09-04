@@ -1,11 +1,12 @@
 #+TITLE: Conky Config
 #+PROPERTY: header-args :tangle config.py
 
-* About This Config
-#+CAPTION: Conky Scrot
-#+ATTR_HTML: :alt Qtile Scrot :title Qtile Scrot :align left
 [[https://i.imgur.com/OM1YyBn.png]]
 
+
+ About This Config
+#+CAPTION: Conky Scrot
+#+ATTR_HTML: :alt Conky Scrot :title Conky Scrot :align left
 #+BEGIN_SRC python
 NOTE: Keybindings MAY have changed. You can easily customize this to show what you like!
 throw this file in your home directory NOT YOUR CONFIG DIRECTORY
